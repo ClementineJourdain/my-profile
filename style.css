@@ -1,0 +1,111 @@
+body { 
+background-image: url(images/background.jpg); 
+background-attachment: fixed;
+color: #B68973 ; 
+font-size: 17px ;
+font-family: 'Rokkitt', serif ;
+letter-spacing: 1px ;  
+font-weight: lighter ;
+text-align: center;
+ }
+
+
+ h1{
+ 	color: #4D4646 ;
+ 	font-weight: 120 ;
+ 	font-weight: bold ;
+ 	letter-spacing: 7px ;
+ 	font-size: 25px ;
+ 	font-family: 'Acme', sans-serif ; 
+ 	text-transform: uppercase ;
+ }
+
+
+ h2 {color : #4D4646 ;
+ 	font-weight: bold;
+ 	letter-spacing:5px ;
+ 	font-size: 21px ;
+ 	font-family: 'Acme', sans-serif ; 
+}
+ 	
+ a{
+ 	text-decoration : none ;
+ 	color : #9aafe3 ; 
+ 	font-weight : bold ;
+ 	font-size: 16px ;
+ 	font-family: 'Acme', sans-serif ; 
+ }
+
+ a:hover { 
+    color: #1E212D ; 
+    font-weight: lighter ;  
+    font-size: 16px ; 
+  }
+ 
+@media (min-width: 700px) {
+	.container{
+		width: 700px ;
+		margin: 40px auto ;
+	}
+}
+
+.card-white{
+background: white ; 
+padding: 10% ;
+margin: 10% ;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1) ;
+border-radius: 4px ; 
+border: 0.5px solid lightpink;
+}
+
+.img-circle{
+	border-radius: 50% ; 
+	display: block; 
+	margin: auto;
+}
+
+.btn-white{
+	background-color: #9aafe3 ;
+	color: white ;
+	padding: 10px 15px ;
+	border-radius: 2px ;
+}
+
+.btn-white:hover {
+	background-color: black ;
+	color: white ;
+}
+
+.list-inline{
+	list-style: none ;
+	padding-left: 0px ;
+}
+
+.list-inline li{
+	display: inline ;
+	padding: 10px ;
+}
+
+.list-inline i{
+	font-size: 40px ;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+} 
+
+#fashiontitle h2 {
+	margin-bottom:30px ;
+}
+
+#sporttitle h2{
+	margin-bottom: 30px;
+}
+
+#architecturetitle h2 {
+	margin-bottom: 30px;
+}
+
+#followmetitle h2 {
+	margin-bottom: 30px;
+}
