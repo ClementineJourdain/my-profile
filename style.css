@@ -50,6 +50,27 @@ background-size: cover;
 	}
 }
 
+@media all and (max-width: 480px) {
+
+.body{background-image: url(images/background.jpg); 
+background-attachment: fixed;
+color: #B68973 ; 
+font-size: 17px ;
+font-family: 'Rokkitt', serif ;
+letter-spacing: 1px ;  
+font-weight: lighter ;
+text-align: center;
+display: block;
+position: fixed;
+z-index: -10;
+background: url(images/background.jpg) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size:cover;
+background-size: cover;
+}
+}
+
 .card-white{
 background: white ; 
 padding: 10% ;
