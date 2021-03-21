@@ -52,7 +52,7 @@ background-size: cover;
 
 @media all and (max-width: 480px) {
 
-.body{background-image: url(images/background.jpg); 
+.body::before {background-image: url(images/background.jpg); 
 background-attachment: fixed;
 color: #B68973 ; 
 font-size: 17px ;
