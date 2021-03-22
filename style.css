@@ -64,10 +64,10 @@ display: block;
 position: fixed;
 z-index: -10;
 background: url(images/background.jpg) no-repeat center center;
--webkit-background-size: unset;
--moz-background-size: unset;
--o-background-size:unset;
-background-size: unset;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size:cover;
+background-size: cover;
 }
 }
 
